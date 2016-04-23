@@ -31,9 +31,9 @@
         "apiVersion": "2015-06-15",
         "location": "[parameters('location')]",
         "properties": {
-          "publisher": "Microsoft.Powershell",
+          "publisher": "Microsoft.Powershell.Test",
           "type": "DSC",
-          "typeHandlerVersion": "2.15",
+          "typeHandlerVersion": "2.17",
           "autoUpgradeMinorVersion": false,
           "settings": {
             "modulesURL": "[parameters('adBDCConfigurationModulesURL')]",
