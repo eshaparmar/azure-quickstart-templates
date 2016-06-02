@@ -134,8 +134,8 @@
         "properties": {
             "publisher": "Microsoft.Powershell.Test",
             "type": "DSC",
-            "typeHandlerVersion": "2.17",
-            "autoUpgradeMinorVersion": false,
+            "typeHandlerVersion": "2.18",
+            "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('spPreparationModulesURL')]",
                 "wmfVersion": "4.0",
@@ -226,8 +226,8 @@
         "properties": {
             "publisher": "Microsoft.Powershell.Test",
             "type": "DSC",
-            "typeHandlerVersion": "2.17",
-            "autoUpgradeMinorVersion": false,
+            "typeHandlerVersion": "2.18",
+            "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('spPreparationModulesURL')]",
                 "wmfVersion": "4.0",
