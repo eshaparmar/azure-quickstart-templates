@@ -120,7 +120,7 @@
         "properties": {
           "publisher": "Microsoft.Powershell.Test",
           "type": "DSC",
-          "typeHandlerVersion": "2.18",
+          "typeHandlerVersion": "2.19",
           "autoUpgradeMinorVersion": true,
           "settings": {
             "modulesURL": "[parameters('adBDCPreparationModulesURL')]",
