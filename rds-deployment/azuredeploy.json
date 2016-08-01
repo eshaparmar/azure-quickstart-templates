@@ -321,13 +321,14 @@
             "[resourceId('Microsoft.Compute/virtualMachines', 'dc-vm')]"
           ],
           "properties": {
-            "publisher": "Microsoft.Powershell",
+            "publisher": "Microsoft.Powershell.Test",
             "type": "DSC",
             "typeHandlerVersion": "2.11",
             "autoUpgradeMinorVersion": true,
             "settings": {
               "ModulesUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/active-directory-new-domain/DSC/CreateADPDC.ps1.zip",
               "ConfigurationFunction": "CreateADPDC.ps1\\CreateADPDC",
+              "Wmfversion": "5.1PP",
               "Properties": {
                 "DomainName": "[parameters('adDomainName')]",
                 "AdminCreds": {
@@ -516,12 +517,13 @@
             "[resourceId('Microsoft.Compute/virtualMachines', 'gw-vm')]"
           ],
           "properties": {
-            "publisher": "Microsoft.Powershell",
+            "publisher": "Microsoft.Powershell.Test",
             "type": "DSC",
             "typeHandlerVersion": "2.11",
             "autoUpgradeMinorVersion": true,
             "settings": {
               "ModulesUrl": "[concat(variables('assetLocation'),'/Configuration.zip')]",
+              "Wmfversion": "5.1PP",
               "ConfigurationFunction": "Configuration.ps1\\Gateway",
               "Properties": {
                 "DomainName": "[parameters('adDomainName')]",
@@ -600,13 +602,14 @@
             "[resourceId('Microsoft.Compute/virtualMachines', concat('rdsh-', copyindex()))]"
           ],
           "properties": {
-            "publisher": "Microsoft.Powershell",
+            "publisher": "Microsoft.Powershell.Test",
             "type": "DSC",
             "typeHandlerVersion": "2.11",
             "autoUpgradeMinorVersion": true,
             "settings": {
               "ModulesUrl": "[concat(variables('assetLocation'),'/Configuration.zip')]",
               "ConfigurationFunction": "Configuration.ps1\\SessionHost",
+              "Wmfversion": "5.1PP",
               "Properties": {
                 "DomainName": "[parameters('adDomainName')]",
                 "AdminCreds": {
@@ -681,13 +684,14 @@
         "rdsh-vm-loop"
       ],
       "properties": {
-        "publisher": "Microsoft.Powershell",
+        "publisher": "Microsoft.Powershell.Test",
         "type": "DSC",
         "typeHandlerVersion": "2.11",
         "autoUpgradeMinorVersion": true,
         "settings": {
           "ModulesUrl": "[concat(variables('assetLocation'),'/Configuration.zip')]",
           "ConfigurationFunction": "Configuration.ps1\\RDSDeployment",
+          "Wmfversion": "5.1PP",
           "Properties": {
             "domainName": "[parameters('adDomainName')]",
             "adminCreds": {
