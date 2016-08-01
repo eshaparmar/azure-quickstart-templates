@@ -124,7 +124,7 @@
           "autoUpgradeMinorVersion": true,
           "settings": {
             "modulesURL": "[parameters('adBDCPreparationModulesURL')]",
-            "wmfVersion": "4.0",
+            "wmfVersion": "5.1PP",
             "configurationFunction": "[parameters('adBDCPreparationFunction')]",
             "properties": {
               "DNSServer": "[parameters('DNSServer')]"

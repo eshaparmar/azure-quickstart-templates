@@ -157,7 +157,7 @@
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "modulesURL": "[parameters('fswPreparationModulesURL')]",
-                    "wmfVersion": "4.0",
+                    "wmfVersion": "5.1PP",
                     "configurationFunction": "[parameters('fswPreparationFunction')]",
                     "properties": {
                         "DNSServer": "[parameters('DNSServer')]",
@@ -257,7 +257,7 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('sqlAOPrepareModulesURL')]",
-                "wmfVersion": "4.0",
+                "wmfVersion": "5.1PP",
                 "configurationFunction": "[parameters('sqlAOPrepareFunction')]",
                 "properties": {
                     "DNSServer": "[parameters('DNSServer')]"
@@ -280,7 +280,7 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('prepareClusterModulesURL')]",
-                "wmfVersion": "4.0",
+                "wmfVersion": "5.1PP",
                 "configurationFunction": "[parameters('prepareClusterConfigurationFunction')]",
                 "properties": {
                     "DNSServer": "[parameters('DNSServer')]",

@@ -37,7 +37,7 @@
           "autoUpgradeMinorVersion": true,
           "settings": {
             "modulesURL": "[parameters('adBDCConfigurationModulesURL')]",
-            "wmfVersion": "4.0",
+            "wmfVersion": "5.1PP",
             "configurationFunction": "[parameters('adBDCConfigurationFunction')]",
             "properties": {
               "domainName": "[parameters('domainName')]",
