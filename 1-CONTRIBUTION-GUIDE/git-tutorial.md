@@ -3,9 +3,9 @@
 This repo contains all currently available Azure Resource Manager templates contributed by the community. A searchable template index is maintained at https://azure.microsoft.com/en-us/documentation/templates/.
 The following information is relevant to get started with contributing to this repository.
 
-+ [**Contribution guide**](/1-CONTRIBUTION-GUIDE/README.md). Describes the minimal guidelines for contributing.
-+ [**Best practices**](/1-CONTRIBUTION-GUIDE/best-practices.md). Best practices for improving the quality of your template design.
-+ [**Git tutorial**](/1-CONTRIBUTION-GUIDE/git-tutorial.md). Step by step to get you started with Git.
++ [**Contribution guide**](/1-CONTRIBUTION-GUIDE/README.md#contribution-guide). Describes the minimal guidelines for contributing.
++ [**Best practices**](/1-CONTRIBUTION-GUIDE/best-practices.md#best-practices). Best practices for improving the quality of your template design.
++ [**Git tutorial**](/1-CONTRIBUTION-GUIDE/git-tutorial.md#git-tutorial). Step by step to get you started with Git.
 
 You are currently reading the Git tutorial.
 
@@ -71,7 +71,7 @@ Many users are initially put off by the idea of having to work with Git through 
 In fact, I find it a lot easier today to work with the command-line. Git will do *exactly* what you tell it do - each step will be obvious to you. GUIs often try to combine multiple commands together into one fancy button, which will surely blow your whole project up, if you don't understand what's going on under the hood. For those reasons, I *heavily* recommend sticking with the command-line.
 
 ### Fork the Repository to your Account
-Before we can get started, you need to register with GitHub. Either create or login into your account. Then, head over to the [azure/azure-quickstart-templates](https://github.com/azure/azure-quickstart-templates) repository and click the little 'fork' button in the upper right.
+Before we can get started, you need to register with GitHub. Either create or login into your account. Then, head over to the [Azure/azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates) repository and click the little 'fork' button in the upper right.
 
 ![Fork the repo](images/git1.png)
 
