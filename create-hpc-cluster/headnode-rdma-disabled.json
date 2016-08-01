@@ -124,12 +124,12 @@
             "[concat('Microsoft.Compute/virtualMachines/', parameters('vmName'))]"
           ],
           "properties": {
-            "publisher": "Microsoft.Powershell",
+            "publisher": "Microsoft.Powershell.Test",
             "type": "DSC",
             "typeHandlerVersion": "2.19",
             "autoUpgradeMinorVersion": true,
             "settings": {
-              "wmfVersion": "4.0",
+              "wmfVersion": "5.1PP",
               "configuration": {
                 "url": "[concat(parameters('scriptBaseUri'),'/CreateADPDC.ps1.zip')]",
                 "script": "CreateADPDC.ps1",
