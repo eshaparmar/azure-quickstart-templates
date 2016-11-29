@@ -151,9 +151,9 @@
                 "[concat('Microsoft.Compute/virtualMachines/', parameters('sqlwVMName'))]"
             ],
             "properties": {
-                "publisher": "Microsoft.Powershell.Test",
+                "publisher": "Microsoft.Powershell",
                 "type": "DSC",
-                "typeHandlerVersion": "2.17",
+                "typeHandlerVersion": "2.21",
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "modulesURL": "[parameters('fswPreparationModulesURL')]",
@@ -251,9 +251,9 @@
           "[concat('Microsoft.Compute/virtualMachines/', parameters('sqlVMName'),'0')]"
         ],
         "properties": {
-            "publisher": "Microsoft.Powershell.Test",
+            "publisher": "Microsoft.Powershell",
             "type": "DSC",
-            "typeHandlerVersion": "2.17",
+            "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('sqlAOPrepareModulesURL')]",
@@ -274,9 +274,9 @@
           "[concat('Microsoft.Compute/virtualMachines/', parameters('sqlVMName'),'1')]"
         ],
         "properties": {
-            "publisher": "Microsoft.Powershell.Test",
+            "publisher": "Microsoft.Powershell",
             "type": "DSC",
-            "typeHandlerVersion": "2.17",
+            "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('prepareClusterModulesURL')]",

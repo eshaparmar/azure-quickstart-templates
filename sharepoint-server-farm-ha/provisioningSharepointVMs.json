@@ -132,9 +132,9 @@
             "count": 2
         },
         "properties": {
-            "publisher": "Microsoft.Powershell.Test",
+            "publisher": "Microsoft.Powershell",
             "type": "DSC",
-            "typeHandlerVersion": "2.17",
+            "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('spPreparationModulesURL')]",
@@ -224,9 +224,9 @@
             "count": 2
         },
         "properties": {
-            "publisher": "Microsoft.Powershell.Test",
+            "publisher": "Microsoft.Powershell",
             "type": "DSC",
-            "typeHandlerVersion": "2.17",
+            "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,
             "settings": {
                 "modulesURL": "[parameters('spPreparationModulesURL')]",
