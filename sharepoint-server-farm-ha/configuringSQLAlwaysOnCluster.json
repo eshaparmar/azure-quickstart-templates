@@ -82,9 +82,9 @@
       "apiVersion": "2015-06-15",
       "location": "[parameters('location')]",
       "properties": {
-        "publisher": "Microsoft.Powershell.Test",
+        "publisher": "Microsoft.Powershell.Test.Edp",
         "type": "DSC",
-        "typeHandlerVersion": "2.17",
+        "typeHandlerVersion": "2.21",
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('fswConfigurationModulesURL')]",
@@ -112,9 +112,9 @@
     "apiVersion": "2015-06-15",
     "location": "[parameters('location')]",
     "properties": {
-      "publisher": "Microsoft.Powershell.Test",
+      "publisher": "Microsoft.Powershell.Test.Edp",
       "type": "DSC",
-      "typeHandlerVersion": "2.17",
+      "typeHandlerVersion": "2.21",
       "autoUpgradeMinorVersion": true,
       "settings": {
         "modulesURL": "[parameters('sqlAOConfigurationModulesURL')]",
@@ -156,9 +156,9 @@
       "[concat('Microsoft.Compute/virtualMachines/',parameters('sqlwVMName'),'/extensions/CreateFileShareWitness')]"
     ],
     "properties": {
-      "publisher": "Microsoft.Powershell.Test",
+      "publisher": "Microsoft.Powershell.Test.Edp",
       "type": "DSC",
-      "typeHandlerVersion": "2.17",
+      "typeHandlerVersion": "2.21",
       "autoUpgradeMinorVersion": true,
       "settings": {
         "modulesURL": "[parameters('configureClusterModulesURL')]",
