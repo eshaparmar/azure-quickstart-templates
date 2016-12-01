@@ -118,7 +118,7 @@
           "[concat('Microsoft.Compute/virtualMachines/', parameters('adBDCVMName'))]"
         ],
         "properties": {
-          "publisher": "Microsoft.Powershell.Test.Edp",
+          "publisher": "Microsoft.Powershell.Edp",
           "type": "DSC",
           "typeHandlerVersion": "2.21",
           "autoUpgradeMinorVersion": true,

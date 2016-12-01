@@ -151,7 +151,7 @@
                 "[concat('Microsoft.Compute/virtualMachines/', parameters('sqlwVMName'))]"
             ],
             "properties": {
-                "publisher": "Microsoft.Powershell.Test.Edp",
+                "publisher": "Microsoft.Powershell.Edp",
                 "type": "DSC",
                 "typeHandlerVersion": "2.21",
                 "autoUpgradeMinorVersion": true,
@@ -251,7 +251,7 @@
           "[concat('Microsoft.Compute/virtualMachines/', parameters('sqlVMName'),'0')]"
         ],
         "properties": {
-            "publisher": "Microsoft.Powershell.Test.Edp",
+            "publisher": "Microsoft.Powershell.Edp",
             "type": "DSC",
             "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,
@@ -274,7 +274,7 @@
           "[concat('Microsoft.Compute/virtualMachines/', parameters('sqlVMName'),'1')]"
         ],
         "properties": {
-            "publisher": "Microsoft.Powershell.Test.Edp",
+            "publisher": "Microsoft.Powershell.Edp",
             "type": "DSC",
             "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,

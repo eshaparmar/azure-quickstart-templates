@@ -82,7 +82,7 @@
       "apiVersion": "2015-06-15",
       "location": "[parameters('location')]",
       "properties": {
-        "publisher": "Microsoft.Powershell.Test.Edp",
+        "publisher": "Microsoft.Powershell.Edp",
         "type": "DSC",
         "typeHandlerVersion": "2.21",
         "autoUpgradeMinorVersion": true,
@@ -142,7 +142,7 @@
         "[concat('Microsoft.Compute/virtualMachines/', parameters('spappVMName'),'0','/extensions/ConfigureSPAppServer')]"
       ],
       "properties": {
-        "publisher": "Microsoft.Powershell.Test.Edp",
+        "publisher": "Microsoft.Powershell.Edp",
         "type": "DSC",
         "typeHandlerVersion": "2.21",
         "autoUpgradeMinorVersion": true,
@@ -202,7 +202,7 @@
         "[concat('Microsoft.Compute/virtualMachines/', parameters('spappVMName'),'0/extensions/ConfigureSPAppServer')]"
       ],
       "properties": {
-        "publisher": "Microsoft.Powershell.Test.Edp",
+        "publisher": "Microsoft.Powershell.Edp",
         "type": "DSC",
         "typeHandlerVersion": "2.21",
         "autoUpgradeMinorVersion": true,
@@ -262,7 +262,7 @@
         "[concat('Microsoft.Compute/virtualMachines/', parameters('spwebVMName'),'0/extensions/ConfigureSPWebServer')]"
       ],
       "properties": {
-        "publisher": "Microsoft.Powershell.Test.Edp",
+        "publisher": "Microsoft.Powershell.Edp",
         "type": "DSC",
         "typeHandlerVersion": "2.21",
         "autoUpgradeMinorVersion": true,

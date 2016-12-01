@@ -132,7 +132,7 @@
             "count": 2
         },
         "properties": {
-            "publisher": "Microsoft.Powershell.Test.Edp",
+            "publisher": "Microsoft.Powershell.Edp",
             "type": "DSC",
             "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,
@@ -224,7 +224,7 @@
             "count": 2
         },
         "properties": {
-            "publisher": "Microsoft.Powershell.Test.Edp",
+            "publisher": "Microsoft.Powershell.Edp",
             "type": "DSC",
             "typeHandlerVersion": "2.21",
             "autoUpgradeMinorVersion": true,
